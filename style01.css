@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(212, 218, 220);
+}
+.header{
+    width: 100%;
+    background-color: rgb(36, 42, 51);
+}
+.header h1{
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+.status{
+    color: red;
+}
+
+.noticecontainer{
+    margin: 20px;
+    padding: 2px;
+}
+#infoHeader{
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(184, 184, 204);
+    height: 40px;
+    position: relative;
+    padding: 5px;
+}
+ #notificationBtn {
+    position: relative;
+    right: 1;
+    padding: 5px;
+    background-color: rgb(247, 247, 55);
+    border: none;
+    border-radius: 5px;
+
+}
+#logout{
+    position: absolute;
+        right: 5px;
+        top: 1px;
+        margin: 2px;
+        padding: 5px;
+        border: none;
+        background-color: rgb(214, 46, 46);
+        border-radius: 5px;
+
+}
+#nameInfo{
+        position: absolute;
+        right: 70px;
+        top: 1px;
+        margin: 2px;
+        padding: 5px;
+        border: 1px solid rgb(248, 245, 245);
+        border-radius: 5px;
+
+}
+.title{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    background-color: rgb(246, 248, 249);
+    margin-bottom: 5px;
+}
+.title  > h3{
+    font-size: 2em;
+}
+#noticeForm{
+    width: 100%;
+    
+    
+}
+#upcomingNotify{
+    background-color: rgb(23, 143, 247);
+    width: 80%;
+    height: auto;
+    padding: 5px;
+}
+#noticeMsg{
+    width: 80%;
+    margin: 5px;
+    margin-right: 5px;
+    height: 100px;
+    display: grid;
+    align-self:center;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+#dateValue{
+        width: 20%;
+        margin: 5px;
+        padding: 5px;
+        margin-right: 5px;
+        border: none;
+        border-radius: 5px;
+
+}
+#addMember{
+    margin: 2px;
+        padding: 5px;
+        background-color: rgb(8, 123, 211);
+        border: none;
+        border-radius: 5px;
+        float: right;;
+        
+    
+}
+#links{
+    text-decoration: none;
+    color: black;
+}
+#publishBtn{
+    margin: 2px;
+        padding: 5px;
+        background-color: rgb(92, 216, 101);
+        border: none;
+        border-radius: 5px;
+}
+.line{
+    width: 100%;
+    height: 3px;
+    color: black;
+}
+#viewNotice{
+    margin: 5px;
+        padding: 5px;
+        background-color: rgb(211, 84, 86);
+        border: none;
+        border-radius: 5px;
+}
+#postNotices{
+    width: 95%;
+    background-color: rgb(116, 130, 177);
+    margin:10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.noticeDetails{
+    padding: 2px;
+    margin: 2px;
+    font-size: 20px;
+    font-style:roboto;
+    text-transform: capitalize;
+}
+#postNotices span{
+    padding: 5px;
+    margin: 2px;
+    font-size: small;
+
+}
+.actionOption{
+    margin: 5px;
+    padding: 4px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(235, 235, 230);
+}
+.noticeUpdatebtn{
+    margin: 5px;
+        padding: 5px;
+        background-color: rgb(84, 211, 109);
+        border: none;
+        border-radius: 5px;
+
+}
+#shortnoteMsg{
+    width: 80%;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
